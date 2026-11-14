@@ -1,0 +1,23 @@
+name: paint_calculator_example
+description: "Pour Ledger - Wax pour sitting journal"
+publish_to: 'none'
+version: 1.0.0+3
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  user_screen:
+    path: ../
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
